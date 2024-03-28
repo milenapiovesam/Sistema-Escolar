@@ -130,9 +130,33 @@ button[disabled=disabled], button:disabled {
 }
 
 .aluno-reprovado{
-	border: 1px solid red;
+	border: 1px solid rgb(217, 122, 122);
 }
 
 .aluno-aprovado {
-    background-color: green;
+    background-color: rgb(134, 205, 134);
+}
+
+#formulario {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 30px;
+}
+
+.campo {
+	padding: 15px;
+	border: none;
+}
+
+input {
+	width: 100%;
+}
+
+#botao {
+	width: 30%;
+	align-items: center;
 }

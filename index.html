@@ -13,44 +13,66 @@
 
 		<main>
 			<section class="container">
-				<h2>Portal do Professor</h2>
-				<table id="tabela">
-					<thead>
-						<tr>
-							<th>Nome</th>
-							<th>Nota 1</th>
-							<th>Nota 2</th>
-							<th>Média final</th>
-							<th>Status do aluno</th>
-						</tr>
-					</thead>
-					<tbody id="tabela-alunos">
-						<tr class="aluno" >
-							<td class="info-nome">Lucas</td>
-							<td class="info-nota1">5</td>
-							<td class="info-nota2">9</td>
-							<td class="info-media">0</td>
-							<td class="info-status">0</td>
-						</tr>
+				<div id="table">
+					<h2>Portal do Professor</h2>
+				  <table id="tabela">
+					  <thead>
+						   <tr>
+							 <th>Nome</th>
+							 <th>Nota 1</th>
+							 <th>Nota 2</th>
+							 <th>Média final</th>
+							 <th>Status do aluno</th>
+						   </tr>
+					  </thead>
+					  <tbody id="tabela-alunos">
+						  <tr class="aluno" >
+							 <td class="info-nome">Lucas</td>
+							 <td class="info-nota1">5</td>
+							 <td class="info-nota2">9</td>
+							 <td class="info-media">0</td>
+							 <td class="info-status">0</td>
+						  </tr>
 
-                        <tr class="aluno" >
-							<td class="info-nome">Milena</td>
-							<td class="info-nota1">3</td>
-							<td class="info-nota2">10</td>
-							<td class="info-media">0</td>
-							<td class="info-status">0</td>
-						</tr>
+                          <tr class="aluno" >
+							 <td class="info-nome">Milena</td>
+							 <td class="info-nota1">3</td>
+							 <td class="info-nota2">10</td>
+							 <td class="info-media">0</td>
+							 <td class="info-status">0</td>
+						  </tr>
 
-                        <tr class="aluno" >
-							<td class="info-nome">Verônica</td>
-							<td class="info-nota1">10</td>
-							<td class="info-nota2">9</td>
-							<td class="info-media">0</td>
-							<td class="info-status">0</td>
-						</tr>
+                          <tr class="aluno" >
+							 <td class="info-nome">Verônica</td>
+							 <td class="info-nota1">10</td>
+							 <td class="info-nota2">9</td>
+							 <td class="info-media">0</td>
+							 <td class="info-status">0</td>
+						    </tr>
+					  </tbody>
+				   </table>
+				</div>
 
-					</tbody>
-				</table>
+				<div id="formulario">
+					<h3>Adicionar novo aluno</h3>
+					<form method="get">
+						<div class="campo">
+							<label class="label-nome">Nome:</label>
+						    <input type="text" name="nome" placeholder="Escreva o nome completo do aluno aqui.">
+						</div>
+
+						<div class="campo"> 
+							<label class="label-nota1">Primeira nota:</label>
+						    <input type="text" name="nome" placeholder="Escreva a primeira nota aqui.">
+						</div>
+
+						<div class="campo">
+							<label class="label-nota2">Segunda nota:</label>
+						<input type="text" name="nome" placeholder="Escreva a segunda nota aqui.">
+						</div>
+					</form>
+					<input id="botao" type="button" onclick="enviarDados()" value="Enviar">
+				</div>
 
 			</section>
 		</main>

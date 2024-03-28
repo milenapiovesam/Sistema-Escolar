@@ -20,6 +20,8 @@ function calcularMedia (nota1, nota2) {
 // Declarar como vamos entender se um aluno será reprovado ou não.
 // -> se media >= 7, o aluno é aprovado. Se a média < 7, o aluno é reprovado.Entregamos o resultado.
 
+
+// Boa prática: deixar as funções fora dos loopings para que possam ser reaproveitadas em outros arquivos JS.
  function statusAprovacao (media) {
     if (media >= 7) {
         return"Aprovado";
