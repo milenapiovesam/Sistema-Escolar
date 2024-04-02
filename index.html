@@ -53,22 +53,30 @@
 				   </table>
 				</div>
 
-				<div id="formulario">
+				<div id="quadro-formulario">
 					<h3>Adicionar novo aluno</h3>
-					<form method="get">
+					<form class="formulario" method="get">
 						<div class="campo">
-							<label class="label-nome">Nome:</label>
-						    <input type="text" name="nome" placeholder="Escreva o nome completo do aluno aqui.">
+							<label class="label-nome">
+								Nome:
+								<input type="text" name="nome" placeholder="Escreva o nome completo do aluno aqui.">
+							</label>
 						</div>
 
 						<div class="campo"> 
-							<label class="label-nota1">Primeira nota:</label>
-						    <input type="text" name="nome" placeholder="Escreva a primeira nota aqui.">
+							<label class="label-nota1">
+								Primeira nota:
+								<input type="text" name="nota1" placeholder="Escreva a primeira nota aqui.">
+							</label>
+						   
 						</div>
 
 						<div class="campo">
-							<label class="label-nota2">Segunda nota:</label>
-						<input type="text" name="nome" placeholder="Escreva a segunda nota aqui.">
+							<label class="label-nota2">
+								<!-- O input precisa estar dentro da label! -->
+								  Segunda nota:
+								<input type="text" name="nota2" placeholder="Escreva a segunda nota aqui.">
+							</label>
 						</div>
 					</form>
 					<input id="botao" type="button" onclick="enviarDados()" value="Enviar">
@@ -78,6 +86,7 @@
 		</main>
     
 		<script src="/nota.js"></script>
+		<script src="/adicionar-novo-aluno.js"></script>
 		
 	</body>
 
