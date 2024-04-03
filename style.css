@@ -160,3 +160,10 @@ input {
 	width: 30%;
 	align-items: center;
 }
+
+.lista-erros {
+	list-style-type: none;
+}
+.erro {
+	color: red;
+}
