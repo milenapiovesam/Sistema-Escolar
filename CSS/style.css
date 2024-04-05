@@ -167,3 +167,20 @@ input {
 .erro {
 	color: red;
 }
+
+.aluno-removido {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#pesquisar-aluno {
+	margin-bottom: 15px;
+}
+
+#campo-pesquisar {
+	width:250px;
+	padding: 10px;
+	background-color: #d6d0d0;
+	color: #0c0b0b;
+}
+

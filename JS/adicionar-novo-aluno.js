@@ -29,12 +29,7 @@ document.querySelector("#botao").addEventListener("click", function(event){ // O
         }
     }
 
-    // if (nomeValido && nota1Valida && nota2Valida) {
-
-    // let tabela = document.getElementById("tabela-alunos");
-
-    // tabela.appendChild(alunoLinha)
-    // } 
+    formulario.reset()
 
 })
 
@@ -76,7 +71,6 @@ function criarLinhaAluno(aluno) {
         tabela.appendChild(alunoLinha)
     });
 
-    // tabela.appendChild(alunoLinha)
 
 }
 
