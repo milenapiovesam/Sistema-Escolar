@@ -184,3 +184,14 @@ input {
 	color: #0c0b0b;
 }
 
+.aluno-invisivel {
+	display: none; 
+}
+
+/* com display none o objeto sai do fluxo do documento */
+
+button {
+	width: 250px;
+	font-size: 18px;
+	margin: auto;
+}
